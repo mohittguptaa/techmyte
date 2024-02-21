@@ -1,0 +1,56 @@
+.contact {
+  width: 100%;
+  height: 100vh;
+  background-color: #090c31;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact > main {
+  background-color: white;
+  height: 40rem;
+  width: 70%;
+  padding: 3rem;
+  border-radius: 0 200px 200px 0;
+}
+.contact > main > form {
+  margin: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contact > main > form > div {
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 60%;
+  margin: 0.5rem;
+}
+.contact > main > form > div > label {
+  font: 400 1.2rem "Roboto";
+  width: 20%;
+  margin: 0 1rem;
+}
+.contact > main > form > div > input {
+  align-self: stretch;
+  width: 80%;
+  padding: 1rem;
+  border-radius: 5px;
+  border: 1px solid rgba(123, 123, 123, 0.6);
+  outline: none;
+}
+.contact > main > form > button {
+  margin: 3rem 0;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #5853ff;
+  color: white;
+  width: 200px;
+  font: 500 1rem "Roboto";
+}
+.contact > main > form > button:hover {
+  opacity: 0.9;
+}

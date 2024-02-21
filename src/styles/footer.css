@@ -1,0 +1,39 @@
+footer {
+  background-color: white;
+  height: 200px;
+  width: 100%;
+  color: rgb(44, 44, 44);
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  padding: 2rem;
+}
+footer > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+footer > div > h1 {
+  font: 700 2rem "Roboto";
+  text-transform: uppercase;
+  color: #5853ff;
+}
+footer > div > p {
+  font: 500 1.2rem "Roboto";
+}
+footer > div > h5 {
+  font: 300 2rem "Roboto";
+  margin: 1rem 0;
+  text-align: center;
+}
+footer > div > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer > div > div a {
+  color: rgb(44, 44, 44);
+  font: 900 1rem cursive;
+}
+footer > div > div a:hover {
+  color: #5853ff;
+}
